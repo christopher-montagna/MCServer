@@ -1,6 +1,6 @@
 
 // UpTime.h
-// UpTime is to query server UpTime
+// The UpTime class is used to query server UpTime
 
 
 
