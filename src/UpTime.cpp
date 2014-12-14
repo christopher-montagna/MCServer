@@ -6,10 +6,7 @@
 // Global static pointer used to ensure a single instance of the class
 UpTime* UpTime::m_pInstance = NULL;
 
-/** This function is called to create an instance of the class.
-Calling the constructor publicly is no allowed. The constructor
-is private and is only called by this Instance function.
-*/
+
 UpTime* UpTime::Instance()
 {
 	return m_pInstance ? m_pInstance : (m_pInstance = new UpTime);
